@@ -1,0 +1,66 @@
+_repo: Stories-by-Foreign-Authors--Spanish_9987
+_version: 0.0.1
+contributor:
+  contributors:
+  - agent_name: Alarcón, Pedro Antonio de
+    aliases:
+    - Ariza, Pedro Antonio de Alarcón y
+    - Alarcon, Pedro Antonio de
+    - De Alarcón, Pedro Antonio
+    birthdate: 1833
+    deathdate: 1891
+    gutenberg_agent_id: '6108'
+    url: http://www.gutenberg.org/2009/agents/6108
+    wikipedia:
+    - http://en.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón
+    - http://es.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón
+  - agent_name: Bécquer, Gustavo Adolfo
+    aliases:
+    - Becquer, Gustavo Adolfo Dominguez
+    - Bécquer, Gustavo Adolfo Domínguez
+    - Bastida, Gustavo Adolfo Domínguez
+    - Béquer, Gustavo Adolfo
+    - Domínguez Bécquer, Gustavo Adolfo
+    - Bequer, Gustavo Adolfo
+    birthdate: 1836
+    deathdate: 1870
+    gutenberg_agent_id: '3696'
+    url: http://www.gutenberg.org/2009/agents/3696
+    wikipedia: http://en.wikipedia.org/wiki/Gustavo_Adolfo_Bécquer
+  - agent_name: Caballero, Fernán
+    aliases:
+    - De Faber y Larrea, Cecilia Francisca Josefa Bohl
+    - De Faber y Larrea, Cecilia Francisca Josefa Böhl
+    - Caballero, Fernan
+    birthdate: 1796
+    deathdate: 1877
+    gutenberg_agent_id: '7378'
+    url: http://www.gutenberg.org/2009/agents/7378
+    wikipedia: http://en.wikipedia.org/wiki/Fern%C3%A1n_Caballero
+  - agent_name: Selgas, José
+    aliases:
+    - Selgas, Jose
+    - Carrasco, José Selgas y
+    birthdate: 1824
+    deathdate: 1882
+    gutenberg_agent_id: '7377'
+    url: http://www.gutenberg.org/2009/agents/7377
+description: ''
+gutenberg_bookshelf: Short Stories
+gutenberg_issued: '2006-02-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '9987'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Short stories, Spanish -- Translations into English'
+- !lcc 'PQ'
+- GITenberg
+tableOfContents: The tall woman / P.A. de Alarcón -- The white butterfly / J. Selgas
+  -- The organist / G.A. Bécquer -- Moors and Christians / P.A. de Alarcón -- Bread
+  cast upon the waters / F. Caballero.
+title: 'Stories by Foreign Authors: Spanish'
+url: http://www.gutenberg.org/ebooks/9987
