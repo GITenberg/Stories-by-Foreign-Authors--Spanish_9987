@@ -1,5 +1,5 @@
 _repo: Stories-by-Foreign-Authors--Spanish_9987
-_version: 0.0.1
+_version: 0.1.0
 contributor:
   contributors:
   - agent_name: Alarcón, Pedro Antonio de
@@ -45,7 +45,12 @@ contributor:
     deathdate: 1882
     gutenberg_agent_id: '7377'
     url: http://www.gutenberg.org/2009/agents/7377
+covers:
+- cover_type: generated
+  image_path: cover.png
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/9987#Stories-by-Foreign-Authors--Spanish
 gutenberg_bookshelf: Short Stories
 gutenberg_issued: '2006-02-01'
 gutenberg_type: Text
