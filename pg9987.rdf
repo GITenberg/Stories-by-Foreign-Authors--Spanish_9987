@@ -1,211 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <pgterms:ebook rdf:about="ebooks/9987">
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6108">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1833</pgterms:birthdate>
+        <pgterms:alias>Ariza, Pedro Antonio de Alarcón y</pgterms:alias>
+        <pgterms:alias>De Alarcón, Pedro Antonio</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón"/>
+        <pgterms:webpage rdf:resource="http://es.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón"/>
+        <pgterms:name>Alarcón, Pedro Antonio de</pgterms:name>
+        <pgterms:alias>Alarcon, Pedro Antonio de</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1891</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/7377">
+        <pgterms:name>Selgas, José</pgterms:name>
+        <pgterms:alias>Carrasco, José Selgas y</pgterms:alias>
+        <pgterms:alias>Selgas, Jose</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1824</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1882</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4c84547ac91f43cbb21cef1c593592ec">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PQ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/3696">
+        <pgterms:alias>Becquer, Gustavo Adolfo Dominguez</pgterms:alias>
+        <pgterms:alias>Béquer, Gustavo Adolfo</pgterms:alias>
+        <pgterms:alias>Bastida, Gustavo Adolfo Domínguez</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</pgterms:birthdate>
+        <pgterms:alias>Bequer, Gustavo Adolfo</pgterms:alias>
+        <pgterms:alias>Domínguez Bécquer, Gustavo Adolfo</pgterms:alias>
+        <pgterms:alias>Bécquer, Gustavo Adolfo Domínguez</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Gustavo_Adolfo_Bécquer"/>
+        <pgterms:name>Bécquer, Gustavo Adolfo</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:tableOfContents>The tall woman / P.A. de Alarcón -- The white butterfly / J. Selgas -- The organist / G.A. Bécquer -- Moors and Christians / P.A. de Alarcón -- Bread cast upon the waters / F. Caballero.</dcterms:tableOfContents>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-02-01</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.epub.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8906d6c7b4bf48caa8862e012543ecdb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115489</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:21.356638</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">472254</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:22.453624</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbeb79107cefd4d4ebac8347b498025ec">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N6978d79f13d34b1ab8dd7fb9baa6b41c">
+        <rdf:value>Short Stories</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N7276931184974106b9fc7953f5bffe37">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/9987/9987.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268405</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-05T14:46:40</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N93b92ace81d14c1b87fcc1d510885f01">
+          <rdf:Description rdf:nodeID="Na77610099d8948b2b1383a3f5b6206b0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-05T14:46:40</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfe3632305ce447109616059ba0a8a85c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126370</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T07:32:08.940145</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6108">
-        <pgterms:alias>Alarcon, Pedro Antonio de</pgterms:alias>
-        <pgterms:alias>Ariza, Pedro Antonio de Alarcón y</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1891</pgterms:deathdate>
-        <pgterms:alias>De Alarcón, Pedro Antonio</pgterms:alias>
-        <pgterms:name>Alarcón, Pedro Antonio de</pgterms:name>
-        <pgterms:webpage rdf:resource="http://es.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón"/>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1833</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T07:32:10.189906</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na2513daeee1f4c0b989c9baf16c7c170">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180792</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</pgterms:downloads>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/3696">
-        <pgterms:name>Bécquer, Gustavo Adolfo</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</pgterms:birthdate>
-        <pgterms:alias>Domínguez Bécquer, Gustavo Adolfo</pgterms:alias>
-        <pgterms:alias>Becquer, Gustavo Adolfo Dominguez</pgterms:alias>
-        <pgterms:alias>Bastida, Gustavo Adolfo Domínguez</pgterms:alias>
-        <pgterms:alias>Bequer, Gustavo Adolfo</pgterms:alias>
-        <pgterms:alias>Bécquer, Gustavo Adolfo Domínguez</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</pgterms:deathdate>
-        <pgterms:alias>Béquer, Gustavo Adolfo</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Gustavo_Adolfo_Bécquer"/>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:tableOfContents>The tall woman / P.A. de Alarcón -- The white butterfly / J. Selgas -- The organist / G.A. Bécquer -- Moors and Christians / P.A. de Alarcón -- Bread cast upon the waters / F. Caballero.</dcterms:tableOfContents>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N55d2be5a53e64957bc0bcac2d2854856">
-        <rdf:value>PQ</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:title>Stories by Foreign Authors: Spanish</dcterms:title>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-02-01</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154907</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115490</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:21.256655</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N032bb1b29d0c4aebab97f43788b3241b">
+          <rdf:Description rdf:nodeID="N2b60823d17e44aebaae062004e0d4ccb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T07:18:39.640156</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/7377">
-        <pgterms:alias>Selgas, Jose</pgterms:alias>
-        <pgterms:name>Selgas, José</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1824</pgterms:birthdate>
-        <pgterms:alias>Carrasco, José Selgas y</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1882</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N5ab6de322eee4a0ea3cd853bd54648f9">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263639</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T07:32:08.112964</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/9987/9987.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102348</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N979b55a2c82c4950b3fe75b1f69c67ef">
+          <rdf:Description rdf:nodeID="N5f0ea87a2eba41ff96a5edc7f46cebba">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd662d30536b74370aa6e7dd3a4b96f1c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-05T14:55:14</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N05faf77a7e8a42118d47889766fef8d9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:20.740648</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268377</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/9987/9987.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1f6514b021c34971a2358c3c5ba3587f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-05T14:55:14</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102348</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6df09b8ae7244c05a8a66f36f779f7ca">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.qioo">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf2cebb5305e8499eaf40aaadee7d304c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T07:18:37.047772</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163686</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.html.gen">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283058</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc4e2738cc8f04bafab1cf6a6bf3e0942">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T07:32:07.327740</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/7378">
-        <pgterms:name>Caballero, Fernán</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Fern%C3%A1n_Caballero"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1796</pgterms:birthdate>
-        <pgterms:alias>De Faber y Larrea, Cecilia Francisca Josefa Bohl</pgterms:alias>
-        <pgterms:alias>De Faber y Larrea, Cecilia Francisca Josefa Böhl</pgterms:alias>
-        <pgterms:alias>Caballero, Fernan</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:ctb>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N316205d18ed74157993cbf825fcb2064">
+      <rdf:Description rdf:nodeID="N2cfff6c334d14b8f8e0e415f87360fe3">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Short stories, Spanish -- Translations into English</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nf2177f0c71e34e4b9c2572061579c52d">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/7378">
+        <pgterms:alias>De Faber y Larrea, Cecilia Francisca Josefa Böhl</pgterms:alias>
+        <pgterms:name>Caballero, Fernán</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Fern%C3%A1n_Caballero"/>
+        <pgterms:alias>Caballero, Fernan</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:deathdate>
+        <pgterms:alias>De Faber y Larrea, Cecilia Francisca Josefa Bohl</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1796</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.html.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292871</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:21.103672</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N990a34fafa8b474e97a8314bf122ab87">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5ef573a51f19440e92b5925917722428">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:23.544610</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">472245</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.html.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T02:38:21.038646</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2c324bd492a84b9ba86fd9690446dfe2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292871</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/9987.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:07:41.180605</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14359</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N63f7445b1be440fda7ca5736a56eddf8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/9987"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nd2c2803659274fbb9c62457a793d721e">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
-    </dcterms:language>
+    </dcterms:type>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gustavo_Adolfo_Bécquer">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fern%C3%A1n_Caballero">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://es.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón">
     <dcterms:description>es.wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gustavo_Adolfo_Bécquer">
-    <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Pedro_Antonio_de_Alarcón">
     <dcterms:description>en.wikipedia</dcterms:description>
